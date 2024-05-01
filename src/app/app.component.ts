@@ -21,8 +21,8 @@ export class AppComponent {
   changeMsg(): void {
     this.msg = 'Helloo ,Maya!';
     }
-   
-    updateName(newName: string): void {
-      this.name = newName;
+    newName: string ='rir';
+    updateName(): void {
+      this.name = "haya";
     }
 }
