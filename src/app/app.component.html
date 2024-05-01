@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <p>{{ msg }}</p>
+<button (click)="changeMsg()">Change the message</button><br>
+  <button type="button" class="btn btn-info">Primary</button>
+  <div [style.backgroundColor]="color">
+  color
+  </div>
+  <input type="text" #name [value]="getName()"><br>
+  <input type="text" [value]="getSurName()"><br>
+
+  <button class="btn btn-success" (click)="updateName(name.value)">updateName</button>
+</html>
